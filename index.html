@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manipulación del DOM">
+  <title>Manipulación del DOM</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1 class="titulo">Control de Gastos</h1>
+  <form action="" class="formulario">
+    Descripción: <input type="text" class="descripcion" placeholder="artículo"> <br>
+    Cantidad: <input type="number" class="cantidad" placeholder="$"> <br>
+    Fecha: <input type="date" class="fecha"> <br>
+    Forma de pago: <br>
+    TDC: <input type="radio" name="formaPago" value="TDC"> <br>
+    Efectivo: <input type="radio" name="formaPago" value="Efectivo"> <br>
+    <button type="button" class="enviar" onclick="insertar()">Enviar</button>
+    <button type="button" class="limpiar">Limpiar</button>
+  </form>
+  <script src="./main.js"></script>
+</body>
+</html>
